@@ -4,19 +4,25 @@ The Communication is established via the MQTT protocol, ensuring efficient and r
 The system’s design emphasizes scalability, cost-effectiveness, and ease of deployment, making it suitable for diverse applications such as smart homes, industrial automation and environmental monitoring. A prototype PCB is designed using Altium ECAD software for robust and durable deployment.
 
 # Hardware
-1. Sensirion SCD41 CO2 sensor
-2. Sensirion SPS30 Particluate Matter sensor
-3. Sensirion SVM41 sensor
-4. Adafruit LIS3DH Triple Axis Accelerometer
-5. Grove seeed Loudness sensor
-6. NodeMCU(ESP8266)
-7. Raspberry Pi 4 model B
+- Sensirion SCD41 CO2 sensor
+- Sensirion SPS30 Particulate Matter sensor
+- Sensirion SVM41 sensor
+- Adafruit LIS3DH Triple Axis Accelerometer
+- Grove seeed Loudness sensor
+- NodeMCU(ESP8266)
+- Raspberry Pi 4 Model B
 
 # Software
-1. Arduino IDE (for NodeMCU(ESP8266) programming)
-2. Raspberry Pi OS
-3. MariaDB
-4. phpMyAdmin
-5. Apache2
-6. Grafana Dashboard
-7. Altium Designer
+- Arduino IDE (for NodeMCU(ESP8266) programming)
+- Raspberry Pi OS
+- MariaDB
+- phpMyAdmin
+- Apache2
+- Grafana Dashboard
+- Altium Designer
+
+ 1. [Source Code](./src/)
+This folder contains all the source code used to program the multi-sensor module and communicate with the central data server. The key components include:
+- Microcontroller programming
+- Data acquisition logic
+- Communication protocol setup
